@@ -15,7 +15,7 @@ app.use("/user", userRouter)
 
 // Connect to MongoDB
 const mongoServer = process.env.MONGO_SERVER;
-mongoose.connect(`${mongoServer}`, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "cluster1" });
+mongoose.connect(mongoServer, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "cluster1" });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
 // 
