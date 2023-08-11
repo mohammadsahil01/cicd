@@ -18,5 +18,5 @@ app.use("/user", userRouter)
 mongoose.connect('mongodb+srv://mohammadsahil01:khan2580@cluster1.eqztuej.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "cluster1" });
 
 app.listen(3000, () => console.log('Server running on port 3000'));
-console.log("Hii")
+console.log("Hii, there")
 // 
